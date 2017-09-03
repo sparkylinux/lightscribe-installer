@@ -1,0 +1,16 @@
+# Archivo de localización en español para LightScribe Installer.
+# Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/11/05
+# Bajo la licencia GNU GPL v2
+# Ultima actualización 2016/01/13
+
+LOCAL1="Salir"
+LOCAL2="Instalador online de LightScribe para Linux"
+LOCAL3="¡Algo está mal! \nProbablemente Ud haya detenido la instalación, se haya cortado su conexión de Internet o el servidor de paquetes se haya caído.\nVerifique esto e inténtelo nuevamente.\n\nSalir..."
+LOCAL4="¡La aplicación se instaló correctamente! \n\nCierre la ventana y ejecute la aplicación nuevamente desde el Menú Aplicaciones. \n\nSalir..."
+LOCAL5="El Instalador online de LightScribe le permite descargar e instalar el soporte de LightScribe para Linux.\n\nHacer clic en OK para continuar."
+LOCAL6="¡No se instaló ningún paquete! \nSalir ahora..."
+LOCAL7="¡Falló la prueba de la conexión de Internet!\n\nProbablemente Ud NO esté conectado a Internet, o el servidor de paquetes se haya caído.\n\nVerifique esto e inténtelo nuevamente."
+
+### .desktop file to be translated too
+# Name[es_AR]=4L-GUI
+# Comment[es_AR]=Herramienta de interfaz gráfica LightScribe

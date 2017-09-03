@@ -1,0 +1,16 @@
+# File di traduzione in italiano per LightScribe Installer.
+# Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 2015/11/05
+# Rilasciato sotto licenza GNU GPL v2
+# Ultimo aggiornamento 2015/11/05
+
+LOCAL1="Esci"
+LOCAL2="Installer online per LightScribe per Linux"
+LOCAL3="Qalcosa è andato storto! \nProabilmente hai fermato l'installazione o la tua connessione internet si è interrotta od il server che ospita i pacchetti è offline.\nProva di nuovo più tardi o controlla cosaè accaduto.\n\nExiting..."
+LOCAL4="L'applicazione è stata installata correttamente! \n\nChiudi la finestra e fai partire nuovamente l'applicazione dal Menù delle Applicazioni. \n\nExiting..."
+LOCAL5="L'installer on-line per LightScribe ti permette di scaricare ed installare il supporto per LightScribe su Linux.\n\nClicca su OK per procedere."
+LOCAL6="Nessun pacchetto è stato installato! \nExiting..."
+LOCAL7="il test della connessione internet è fallito!\n\nProbabilmente NON sei connesso ad internet od il server che ospita i pacchetti offline.\n\nControlla e riprovva più tardi."
+
+### .desktop file to be translated too
+# Name[it_IT]=4L-GUI
+# Comment[it_IT]=LightScribe GUI Tool

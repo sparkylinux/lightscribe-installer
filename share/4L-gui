@@ -1,0 +1,1 @@
+?package(lightscribe-installer):needs="X11" section="Applications/Graphics"        title="4L-GUI" command="/usr/bin/lightscribe-launcher" icon="/opt/lightscribeApplications/SimpleLabeler/content/images/animations/swoosh/ls01.png"

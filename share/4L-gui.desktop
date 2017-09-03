@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=4L-GUI
+GenericName=4L-GUI
+Comment=LightScribe GUI Tool
+Comment[es_AR]=Herramienta de interfaz gráfica LightScribe
+Comment[fr_FR]=outil pour l'interface graphique de LightScribe
+Comment[ja_JP]=LightScribe GUI ツール
+Comment[pl_PL]=Graficzne narzędzie do obsługi LightScribe
+Comment[pt_BR]=Ferramenta GUI do LightScribe
+Comment[pt_PT]=Ferramenta LightScribe GUI
+Comment[sv_SE]=Grafiskt LightScribe-verktyg
+Exec=lightscribe-launcher
+Icon=/opt/lightscribeApplications/SimpleLabeler/content/images/animations/swoosh/ls01.png
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Applications;Graphics

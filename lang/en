@@ -1,0 +1,16 @@
+# English localization file for LightScribe Installer.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/05
+# Under the GNU GPL v2
+# Last update 2015/11/05
+
+LOCAL1="Exit"
+LOCAL2="LightScribe for Linux On-Line Installer"
+LOCAL3="Something is wrong! \nProbably you have stopped the installation or your internet connection is broken or the package server is down.\nCheck it out and try again.\n\nExiting..."
+LOCAL4="The application has been installed successfully! \n\nClose the window and run the application from the Applications Menu again. \n\nExiting..."
+LOCAL5="LightScribe On-Line Installer lets you download and install LightScribe support for Linux.\n\nClick OK to continue."
+LOCAL6="No packages have been installed! \nExiting now..."
+LOCAL7="Internet connection test failed!\n\nProbably you are NOT connected to the Internet or the package server is down.\n\nCheck it out and try again."
+
+### .desktop file to be translated too
+# Name[en_US]=4L-GUI
+# Comment[en_US]=LightScribe GUI Tool

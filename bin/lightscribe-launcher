@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# LightScribe On-Line Installer is a script which can download and install 
+# support of LightScribe technology for Linux
+# Created by Paweł "pavroo" Pijanowski 2015/03/10
+# Last update 2015/11/05
+# Copyright 2015 under the GNU GPL2 License
+
+if [ -f /usr/bin/4L-gui ]; then
+	/usr/bin/4L-gui
+
+else
+	/usr/bin/remsu /opt/sparky-ls/lightscribe-installer
+
+fi

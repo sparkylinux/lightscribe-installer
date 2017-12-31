@@ -9,7 +9,7 @@ LOCAL3="Qalcosa è andato storto! \nProabilmente hai fermato l'installazione o l
 LOCAL4="L'applicazione è stata installata correttamente! \n\nChiudi la finestra e fai partire nuovamente l'applicazione dal Menù delle Applicazioni. \n\nExiting..."
 LOCAL5="L'installer on-line per LightScribe ti permette di scaricare ed installare il supporto per LightScribe su Linux.\n\nClicca su OK per procedere."
 LOCAL6="Nessun pacchetto è stato installato! \nExiting..."
-LOCAL7="il test della connessione internet è fallito!\n\nProbabilmente NON sei connesso ad internet od il server che ospita i pacchetti offline.\n\nControlla e riprovva più tardi."
+LOCAL7="Il test della connessione internet è fallito!\n\nProbabilmente NON sei connesso ad internet od il server che ospita i pacchetti offline.\n\nControlla e riprovva più tardi."
 
 ### .desktop file to be translated too
 # Name[it_IT]=4L-GUI

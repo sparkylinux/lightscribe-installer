@@ -42,6 +42,7 @@ sparky-remsu
 sparky-xterm
 wget
 yad
+x11-utils
 
 Install:
 -------------

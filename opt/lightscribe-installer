@@ -3,8 +3,8 @@
 # LightScribe On-Line Installer is a script which can download and install 
 # support of LightScribe technology for Linux (64 bit)
 # Created by Paweł "pavroo" Pijanowski 2015/03/10
-# Copyright 2015, 2016, 2017 under the GNU GPL2 License
-# Last update 2017/12/31
+# Copyright 2015-2018 under the GNU GPL2 License
+# Last update 2018/03/30
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/lightscribe-installer"
@@ -29,9 +29,8 @@ else
 fi
 
 testroot="`whoami`"
-
 if [ "$testroot" != "root" ]; then
-    /usr/bin/remsu $0 &
+	/usr/bin/remsu $0 &
 fi
 
 DIALOG="yad --window-icon=text-x-script --width=450 --height=200 --center"
@@ -41,10 +40,11 @@ OKEXIT=" --button=Ok:0 --button=$LOCAL1:1 "
 MSGBOX=" --button=Ok:0 "
 TITLETEXT="$LOCAL2"
 WORKDIR="/tmp/lightscribe"
-if [ -f /opt/sparky/sparky-xterm ]; then
-. /opt/sparky/sparky-xterm
+if [ -f /usr/bin/sparky-xterm ];then
+	SPARKYXTERM="/usr/bin/sparky-xterm"
 else
-SPARKYXTERM="x-terminal-emulator"
+	echo "sparky-xterm is missing... Exiting..."
+	exit 1
 fi
 
 DEB1="lightscribe-1.18.8.1-linux-2.6-intel.deb"
@@ -114,7 +114,7 @@ else
 	cd $WORKDIR
 	
 	if [ ! -f $WORKDIR/$DEB1 ]; then
-		$SPARKYXTERM -e "$XWGET https://sparkylinux.org/files/$DEB1"
+		$SPARKYXTERM "$XWGET https://sparkylinux.org/files/$DEB1"
 	fi
 
 	if [ ! -f $WORKDIR/$DEB1 ]; then
@@ -123,7 +123,7 @@ else
 	fi
 
 	if [ ! -f $WORKDIR/$DEB2 ]; then
-		$SPARKYXTERM -e "$XWGET https://sparkylinux.org/files/$DEB2"
+		$SPARKYXTERM "$XWGET https://sparkylinux.org/files/$DEB2"
 	fi
 
 	if [ ! -f $WORKDIR/$DEB2 ]; then
@@ -132,14 +132,14 @@ else
 	fi
 
 	if [ ! -f $WORKDIR/lacie.rpm ]; then
-		$SPARKYXTERM -e "$XWGET https://sparkylinux.org/files/$RPM1 -O lacie.rpm"
+		$SPARKYXTERM "$XWGET https://sparkylinux.org/files/$RPM1 -O lacie.rpm"
 	fi
 
 	RPMSIZE=`ls -s $WORKDIR/lacie.rpm | awk -F " " '{print $1}'`
 
 	if [ "$RPMSIZE" = "0" ]; then
 		rm -f $WORKDIR/lacie.rpm
-		$SPARKYXTERM -e "$XWGET https://sparkylinux.org/files/$RPM1 -O lacie.rpm"
+		$SPARKYXTERM "$XWGET https://sparkylinux.org/files/$RPM1 -O lacie.rpm"
 	fi
 
 	if [ ! -f $WORKDIR/lacie.rpm ]; then
@@ -157,12 +157,12 @@ else
 	# check does your 64 bit system have multi-arch support enabled for i386 architecture
 	if [ "$FOREIGN" = "" ]; then
 		dpkg --add-architecture i386
-		$SPARKYXTERM -e "apt-get update"
+		$SPARKYXTERM "apt-get update"
 	fi
 
 	# install deb packages on 64 bit host
-	$SPARKYXTERM -e "dpkg -i $DEB1 $DEB2"
-	$SPARKYXTERM -e "apt-get install -f -y"
+	$SPARKYXTERM "dpkg -i $DEB1 $DEB2"
+	$SPARKYXTERM "apt-get install -f -y"
 
 	# unpack and install files from the RPM package
 	rpm2cpio lacie.rpm | cpio -vid
@@ -190,3 +190,5 @@ else
 	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$TEXTBROKEN"
 	exit 0
 fi
+
+exit 0

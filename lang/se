@@ -1,8 +1,7 @@
 # Svensk språkfil för LightScribe-installeraren.
 # Copyright 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com> 2015-11-15
 # Under GNU GPL v2
-# Senast uppdaterad 2015-11-15
-
+# Last update 2018/08/04 by pavroo
 LOCAL1="Avsluta"
 LOCAL2="LightScribe-installerare för Linux"
 LOCAL3="Någonting är fel!\nTroligen har du avbrutit installationen, paketservern är nere eller så saknas Internetuppkoppling.\nKontrollera och försök igen.\n\nAvslutar…"
@@ -10,7 +9,6 @@ LOCAL4="Installationen lyckades!\n\nStäng fönstret och kör applikationen frå
 LOCAL5="LightScribe-installeraren låter dig ladda ner och installera LightScribe-stöd för Linux.\n\nKlicka OK för att fortsätta."
 LOCAL6="Inga paket har installerats!\n\nAvslutar…"
 LOCAL7="Internetuppkopplingstestet misslyckades!\n\nDu är antagligen inte uppkopplad till Internet, eller så är paketservern nere.\n\nKontrollera detta och försök igen."
-
 ### .desktop file to be translated too
 # Name[sv_SE]=4L-GUI
 # Comment[sv_SE]=Grafiskt LightScribe-verktyg

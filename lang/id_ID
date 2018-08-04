@@ -1,0 +1,15 @@
+# Indonesian localization file for LightScribe Installer.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/05
+# Under the GNU GPL v2
+# Last update 2018/08/04 by pavroo
+# Translated to Indonesian by les kompie
+LOCAL1="Keluar"
+LOCAL2="Penginstal Online LightScribe untuk Linux"
+LOCAL3="Ada yang salah! \nMungkin anda menghentikan proses instal, atau koneksi internet terputus, atau server paket sedang mati.\nPeriksa dan coba lagi.\n\nKeluar..."
+LOCAL4="Aplikasi berhasil di-instal! \n\nTutup jendela dan jalankan lagi aplikasi dari Applications Menu. \n\nKeluar..."
+LOCAL5="Penginstal Online LightScribe mengunduh dan meng-instal pendukung LightScribe untuk Linux.\n\nKlik OK untuk melanjutkan."
+LOCAL6="Tidak ada paket yang di-instal! \nSekarang keluar..."
+LOCAL7="Uji koneksi internet gagal!\n\nMungkin anda tidak terkoneksi ke internet, atau server paket sedang mati.\n\nPeriksa dan coba lagi."
+### .desktop file to be translated too
+# Name[id_ID]=4L-GUI
+# Comment[id_ID]=Program GUI LightScribe

@@ -1,8 +1,7 @@
 # Arquivo de localização para Portugues de Portugal do LightScribe Installer.
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Monday 02 February 19:17:00 WET 2016
 # Sob a Licença GNU GPL v2
-# Última atualização Tuesday 02 February 19:17:00 WET 2016
-
+# Last update 2018/08/04 by pavroo
 LOCAL1="Sair"
 LOCAL2="Instalador LightScribe para Linux via On-line"
 LOCAL3="Alguma coisa está errada \nProvavelmente parou a instalação ou a sua ligação à Internet está desligada ou o servidor pacotes estáa para com problemas.\nVerifique e tente novamente.\n\nA Sair..."
@@ -10,7 +9,6 @@ LOCAL4="A aplicação foi instalada com sucesso! \n\nFeche a janela e execute a 
 LOCAL5="Instalador LightScribe que lhe permite fazer download e instalar o suporte LightScribe para Linux.\n\nClique em OK para continuar."
 LOCAL6="Nenhuns pacotes foram instalados! \nA Sair..."
 LOCAL7="Teste de ligação à Internet falhou!\n\nProvavelmente não está ligado à Internet ou o servidor pacotes estáa com problemas.\n\nVerifique e tente novamente."
-
 ### Arquivo a ser traduzido também .desktop 
 # Name[pt_PT]=4L-GUI
 # Comment[pt_PT]=Ferramenta LightScribe GUI

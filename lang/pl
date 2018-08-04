@@ -1,9 +1,8 @@
 # Polish localization file for LightScribe Installer.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/05
 # Under the GNU GPL v2
-# Last update 2015/11/05
+# Last update 2018/08/04 by pavroo
 # Translated to Polish by pavroo
-
 LOCAL1="Zakończ"
 LOCAL2="Instalator On-Line LightScribe dla Linux"
 LOCAL3="Coś poszło źle! \nPrawdopodobnie zatrzymałeś instalację lub serwer z pakietami jest niedostępny.\nSprawdź to i spróbuj ponownie. \n\nWyjście..."
@@ -11,7 +10,6 @@ LOCAL4="Aplikacja została zainstalowana pomyślnie! \n\nZamknij to okno i uruch
 LOCAL5="Instalator On-Line LightScribe umożliwia pobranie i zainstalowanie wsparcia dla LightScribe Linux.\n\nKliknij OK aby kontynuować."
 LOCAL6="Żaden pakiet nie został zainstalowany! \nWyjście..."
 LOCAL7="Połączenie z internetem nieudane!\n\nPrawdopodobnie NIE jesteś połączony z internetem lub serwer pakietów jest niedostępny.\n\nSprawdź to i spróbuj ponownie."
-
 ### .desktop file, również do przetłumaczenia
 # Name[pl_PL]=4L-GUI
 # Comment[pl_PL]=Graficzne narzędzie do obsługi LightScribe

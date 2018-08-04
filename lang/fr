@@ -1,8 +1,7 @@
 ﻿# Fichier de localisation française de  LightScribe Installer.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
-# Dernière mise à jour 2016/06/05
-
+# Last update 2018/08/04 by pavroo
 LOCAL1="Quitter"
 LOCAL2="Installateur en ligne de LightScribe pour Linux"
 LOCAL3="Il y a un problème! \nPeut-être avez-vous stoppé l'installation ou bien votre connexion internet est interrompue, ou le serveur de paquets est hors-service.\nVérifiez et essayez à nouveau."\n\nSortie..."
@@ -10,7 +9,6 @@ LOCAL4=""L'application a été installée avec succès! \n\nFermer la fenêtre e
 LOCAL5="L'Installateur en ligne de LightScribe vous permet de télécharger et installer le support de LightScribe pourLinux.\n\nCliquez sur OK pour continuer."
 LOCAL6="Aucun paquet n'a été installé! \nSortie..."
 LOCAL7="Échec du test de la connexion internet!\n\nVous n'êtes probablement pas connecté à Internet ou bien le serveur de paquets est hors-service.\n\nVérifiez et essayez à nouveau.."
-
 ### .desktop file to be translated too
 # Name[fr_FR]=4L-GUI
 # Comment[fr_FR]=outil pour l'interface graphique de LightScribe

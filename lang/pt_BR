@@ -1,10 +1,8 @@
 #Arquivo de localização para o Português do Brasil do  Instalador Linux On-Line LightScribe.
 # Copyright 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/05
 # Sob a licença GNU GPL v2
-# Última atualização 2015/12/08
+# Last update 2018/08/04 by pavroo
 # Traduzido por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/12/08
-
-
 LOCAL1="Saída"
 LOCAL2="Instalador Linux On-Line LighScribe"
 LOCAL3="Alguma coisa está errada! \nProvavelmente o andamento de sua  instalação parou ou sua conexão de  internet tenha caído ou o servidor de pacotes esteja fora-do-ar.\nVerifique este problema e tente novamente.\n\nSaindo..."
@@ -12,7 +10,6 @@ LOCAL4="A aplicação foi  instalada com sucesso! \n\nFeche a janela e execute n
 LOCAL5="O Instalador On-Line LightScribe permite a voce fazer  download e  instalar o suporte do LightScribe para o Linux.\n\nClick OK para continuar."
 LOCAL6="Nenhum pacote foi instalado! \nSaindo agora..."
 LOCAL7="Teste de conexão de Internet falhou!\n\nProvavelmente voce NÃO está conectado na  Internet ou o servidor de pacote está fora-do-ar.\n\nVerifique este problema e tente novamente."
-
 ### .desktop file to be translated too
 # Name[pt_BR]=4L-GUI
 # Comment[pt_BR]=Ferramenta GUI do LightScribe

@@ -1,9 +1,8 @@
 # Japanese localization file for LightScribe Installer.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/05
 # Under the GNU GPL v2
-# Last update 2017/01/06
+# Last update 2018/08/04 by pavroo
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
-
 LOCAL1="終了"
 LOCAL2="LightScribe の Linux オンラインインストーラー"
 LOCAL3="何か誤りがあります！ \nインストールを停止しているか、インターネット接続が切断されたか、パッケージサーバがダウンしています。\n確認の上、再度実行して下さい。\n終了します..."
@@ -11,7 +10,6 @@ LOCAL4="アプリケーションはインストールしました！ \n\nウィ�
 LOCAL5="LightScribe のオンラインインストーラは、Linux 用 LightScribe サポートをダウンロードし、インストールできます。\n\nOK を押して続けます。"
 LOCAL6="パッケージはインストールされていません！ \n終了します..."
 LOCAL7="インターネット接続に問題があります！\n\nインターネットに接続されていないか、パッケージサーバがダウンしています。\n\n確認の上、再度実行して下さい。"
-
 ### .desktop file to be translated too
 # Name[ja_JP]=4L-GUI
 # Comment[ja_JP]=LightScribe GUI ツール

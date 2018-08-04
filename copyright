@@ -14,6 +14,10 @@ File: fr
     Copyright (C) 2016 hiver <hiver@club-internet.fr>
     License: GPL-2
 
+File: id_ID
+    Copyright (C) 2018 les kompie
+    License: GPL-2
+
 File: it
     Copyright (C) 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com>
     License: GPL-2
@@ -28,6 +32,10 @@ File: pt_BR
 
 File: pt_PT
     Copyright (C) 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com>
+    License: GPL-2
+
+File: ru
+    Copyright (C) 2018 Igor Klyushnyov <inklu@yandex.ru> 
     License: GPL-2
 
 File: se
@@ -52,6 +60,3 @@ License:
 
 On Debian systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL'.
-
-The Debian packaging is (C) 2015, 2016, 2017 Paweł Pijanowski <pavroo@onet.eu> and
-is licensed under the GPL, see above.

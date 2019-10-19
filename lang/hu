@@ -1,0 +1,14 @@
+# Hungarian localization file for LightScribe Installer. (Translated by Nemomen)
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/05
+# Under the GNU GPL v2
+# Last update 2018/08/04 by pavroo
+LOCAL1="Kilépés"
+LOCAL2="LightScribe a Linux On-line Telepítő (On-Line Installer) részére"
+LOCAL3="Valami hibás! \nTalán leállította a telepítést vagy megszakadt az Internet kapcsolata vagy a csomagszerver nem érhető el.\nEllenőrizze és próbálja újra.\n\nKilépés..."
+LOCAL4="Az alkalmazás sikeresen telepítve! \n\nZárja be az ablakot és futtassa az alkalmazást az Alkalmazásmenüből újra. \n\nKilépés..."
+LOCAL5="A LightScribe On-Line Installer lehetővé teszi Önnek a LightScribe támogatást Linux részére letöltését és telepítését.\n\nKattintson OK-t a folytatáshoz."
+LOCAL6="Nincsenek csomagok telepítve! \nKilépés most..."
+LOCAL7="Az Internet kapcsolati teszt sikertelen!\n\nLehet, hogy Ön NEM kapcsolódik az Internet-hálózatra vagy a csomagszerver nem érhető el. Ellenőrizze és próbálja újra!”
+### .desktop file to be translated too
+# Name[en_US]=4L-GUI
+# Comment[en_US]=LightScribe GUI Tool

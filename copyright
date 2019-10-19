@@ -3,7 +3,7 @@ Upstream Author(s):
 
 Files: * 
     Autor: Paweł Pijanowski
-    Copyright (C) 2015-2018 Paweł Pijanowski
+    Copyright (C) 2015-2019 Paweł Pijanowski
     License: GNU GPLv2 
 
 File: es
@@ -13,6 +13,10 @@ File: es
 File: fr
     Copyright (C) 2016 hiver <hiver@club-internet.fr>
     License: GPL-2
+
+File: hu
+    Copyright 2019 Nemomen
+    License: GNU GPL-2
 
 File: id_ID
     Copyright (C) 2018 les kompie

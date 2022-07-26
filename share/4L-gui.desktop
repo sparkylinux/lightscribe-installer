@@ -2,10 +2,12 @@
 Version=1.0
 Encoding=UTF-8
 Name=4L-GUI
+Name[it]=Strumento GUI LightScribe
 GenericName=4L-GUI
 Comment=LightScribe GUI Tool
 Comment[el]=Εργαλείο διεπαφής LightScribe
-Comment[es]=Herramienta de interfaz gráfica LightScribe
+Comment[es_AR]=Herramienta de interfaz gráfica LightScribe
+Comment[es_ES]=Utilidad gráfica de LightScribe
 Comment[fr]=outil pour l'interface graphique de LightScribe
 Comment[id]=Program GUI LightScribe
 Comment[ja]=LightScribe GUI ツール

@@ -1,7 +1,7 @@
 LightScribe Installer
 This installs support of LighScribe technology and LaCie GUI and CLI front-ends. It is targeted to SparkyLinux and Debian hosts. To finish the installation, go to desktop's Graphics Menu and run 4L-GUI.
  
-Copyright (C) 2015-2022 Paweł Pijanowski and others, see copyright file.
+Copyright (C) 2015-2023 Paweł Pijanowski and others, see copyright file.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

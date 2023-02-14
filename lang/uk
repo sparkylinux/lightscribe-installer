@@ -1,0 +1,15 @@
+# Файл української локалізації для LightScribe Installer.
+# Ukrainian localization made by XalisRatt 2023/02/04 (matrix : <@xalisqull:arcticfoxes.net> discord: <XalisRatt#2308>)
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/05
+# Під ліцензією GNU GPL v2
+# Last update 2018/08/04 by pavroo
+LOCAL1="Вийти"
+LOCAL2="Онлайн встановлювач LightScribe для Linux"
+LOCAL3="Щось не так! \nМожливо ви зупинили встановлення, або підключення до інтернету обірвано, або сервер пакунків не працює.\nПеревірте це та спробуйте ще раз.\n\nВиходжу..."
+LOCAL4="The application has been installed successfully! \n\nClose the window and run the application from the Applications Menu again. \n\nВиходжу..."
+LOCAL5="Онлайн встановлювач LightScribe дозволяє вам завантажити та встановити підтримку LightScribe для Linux.\n\nНатисніть OK щоб продовжити."
+LOCAL6="Ніяких пакунків не було встановлено! \nВиходжу..."
+LOCAL7="Перевірка підключення до інтернету була невдала!\n\nМожливо ви не підключені до Інтернету або сервер пакунків не працює.\n\nПеревірте це і спробуйте ще раз."
+### .desktop file to be translated too
+# Name[uk_UA]=4L-GUI
+# Comment[uk_UA]=Графічний інструмент LightScribe

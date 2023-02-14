@@ -16,6 +16,7 @@ Comment[pt_BR]=Ferramenta GUI do LightScribe
 Comment[pt]=Ferramenta LightScribe GUI
 Comment[ru]=Графический инструмент LightScribe
 Comment[sv]=Grafiskt LightScribe-verktyg
+Comment[uk]=Графічний інструмент LightScribe
 Exec=lightscribe-launcher
 Icon=/opt/lightscribeApplications/SimpleLabeler/content/images/animations/swoosh/ls01.png
 Terminal=false

@@ -3,8 +3,8 @@
 # LightScribe On-Line Installer is a script which can download and install 
 # support of LightScribe technology for Linux (64 bit)
 # Created by Paweł "pavroo" Pijanowski 2015/03/10
-# Copyright 2015-2022 under the GNU GPL2 License
-# Last update 2022/07/26
+# Copyright 2015-2023 under the GNU GPL2 License
+# Last update 2023/02/14
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/lightscribe-installer"
@@ -36,6 +36,8 @@ elif [ "`cat /etc/default/locale | grep ru`" != "" ]; then
 . $DEFLOCDIR/ru
 elif [ "`cat /etc/default/locale | grep sv`" != "" ]; then
 . $DEFLOCDIR/se
+elif [ "`cat /etc/default/locale | grep uk`" != "" ]; then
+. $DEFLOCDIR/uk
 else
 . $DEFLOCDIR/en
 fi

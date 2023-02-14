@@ -3,7 +3,7 @@ Upstream Author(s):
 
 Files: * 
     Autor: Paweł Pijanowski
-    Copyright (C) 2015-2022 Paweł Pijanowski
+    Copyright (C) 2015-2023 Paweł Pijanowski
     License: GNU GPLv2 
 
 File: el
@@ -54,6 +54,10 @@ File: ru
 File: se
     Copyright (C) 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com>
     License: GPL-2   
+
+File: uk
+    Copyright 2023 XalisRatt
+    License: GNU GPL-3
 
 License:
 

@@ -1,0 +1,14 @@
+# Suomenkielinen lokalisointitiedosto LightScribe Installerille.
+# Tekijänoikeus 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/05
+# GNU GPL v2:n alla
+# Viimeisin päivitys 2018/08/04 pavroo
+LOCAL1="Poistu"
+LOCAL2="LightScribe Linuxin online-asennusohjelmalle"
+LOCAL3="Jotain on vialla! \nLuultavasti olet lopettanut asennuksen tai Internet-yhteytesi on katkennut tai pakettipalvelin ei toimi.\nTarkista ja yritä uudelleen.\n\nPoistutaan..."
+LOCAL4="Sovellus on asennettu onnistuneesti! \n\nSulje ikkuna ja suorita sovellus uudelleen Sovellukset-valikosta. \n\nPoistutaan..."
+LOCAL5="LightScribe On-Line Installerin avulla voit ladata ja asentaa LightScribe-tuen Linuxille.\n\nJatka napsauttamalla OK."
+LOCAL6="Paketteja ei ole asennettu! \nPoistutaan nyt..."
+LOCAL7="Internet-yhteystesti epäonnistui!\n\nEt ole luultavasti yhteydessä Internetiin tai pakettipalvelin ei toimi.\n\nTarkista ja yritä uudelleen."
+### .desktop-tiedosto käännettävä myös
+# Name[fi]=4L-GUI
+# Comment[fi]=LightScribe GUI Tool

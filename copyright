@@ -3,7 +3,7 @@ Upstream Author(s):
 
 Files: * 
     Autor: Paweł Pijanowski
-    Copyright (C) 2015-2023 Paweł Pijanowski
+    Copyright (C) 2015-2024 Paweł Pijanowski
     License: GNU GPLv2 
 
 File: el
@@ -17,6 +17,10 @@ File: es_AR
 File: es_ES
     Copyright 2022 depaz
     License: GNU GPL-3
+
+File: fi
+    Copyright (C) 2024 Jouko Tiilikainen
+    License: GPL-2
 
 File: fr
     Copyright (C) 2016 hiver <hiver@club-internet.fr>
